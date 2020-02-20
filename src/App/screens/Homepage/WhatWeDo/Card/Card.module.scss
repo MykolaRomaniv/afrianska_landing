@@ -1,0 +1,54 @@
+@import '../../../../../global.scss';
+
+.card {
+  width: 380px;
+  @extend .shadow1;
+  text-align: left;
+  color: $blue_01;
+  border-radius: 10px;
+  margin: 50px 0;
+
+  & > div {
+    margin-left: 48px;
+    width: 300px;
+  }
+
+  h3 {
+    font-family: Gilroy;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+  }
+
+  p {
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    letter-spacing: 0.05em;
+
+    opacity: 0.6;
+    margin-bottom: 36px;
+  }
+
+  .learnMore {
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+
+    letter-spacing: 0.05em;
+    color: $blue_04;
+    padding-bottom: 48px;
+    display: flex;
+    align-items: center;
+
+    &>span {
+        padding-right: 16px;
+    }
+  }
+}

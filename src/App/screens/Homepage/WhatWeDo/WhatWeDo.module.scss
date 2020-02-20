@@ -1,0 +1,23 @@
+@import '../../../../global.scss';
+
+.whatWeDo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 190px;
+  
+  .column {
+    display: flex;
+    flex-flow: column;
+  }
+
+  h2 {
+    width: 360px;
+    font-family: Gilroy;
+    font-size: 34px;
+    line-height: 46px;
+    /* or 128% */
+
+    letter-spacing: 0.05em;
+    color: $blue_02;
+  }
+}

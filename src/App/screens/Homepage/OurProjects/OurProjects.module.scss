@@ -1,0 +1,43 @@
+@import '../../../../global.scss';
+
+.ourProjects {
+  .sectionHeader {
+    display: flex;
+    align-items: center;
+
+    h2 {
+      width: 230px;
+      font-family: Gilroy;
+      font-size: 36px;
+      line-height: 46px;
+      /* or 128% */
+
+      letter-spacing: 0.05em;
+      color: $blue_01;
+    }
+
+    p {
+      width: 540px;
+      margin-left: 90px;
+      font-family: Gilroy;
+      font-size: 16px;
+      line-height: 26px;
+      /* or 162% */
+
+      letter-spacing: 0.05em;
+
+      color: $blue_01;
+      opacity: 0.6;
+    }
+  }
+
+  .projects {
+    margin-top: 90px;
+
+    .otherProjects {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 90px;
+    }
+  }
+}

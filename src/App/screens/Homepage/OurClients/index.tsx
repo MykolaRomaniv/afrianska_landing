@@ -1,5 +1,7 @@
 import React from 'react'
 
+import classes from './OurClients.module.scss'
+
 const CLIENTS_LOGO = [
   'LOGO CLIENT 1',
   'LOGO CLIENT 2',
@@ -12,18 +14,22 @@ const CLIENTS_LOGO = [
 
 const ourClients = () => {
   return (
-    <section>
-      <h2>Our Beloved Client</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam.
-      </p>
-      <div>
-        <div>{CLIENTS_LOGO.map((logo) => logo)}</div>
-        <div>More Clients</div>
-      </div>
-    </section>
+    <div className={classes.ourClients}>{/*//TODO check if valid*/}
+      <section>
+        <div className={classes.sectionHeader}>
+          <h2>Our Beloved Client</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <div className={classes.clientsList}>
+          {CLIENTS_LOGO.map((logo) => <div>{logo}</div>)}
+          <div className={classes.more}>More Clients</div>
+        </div>
+      </section>
+    </div>
   )
 }
 

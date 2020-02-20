@@ -1,8 +1,18 @@
-.primary-btn {
+@import '../../../global.scss';
+
+.primaryBtn {
+  font-family: Gilroy;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.04em;
+
   color: $white;
   width: 220px;
   height: 55px;
-  background: $blue_01;
+  background: $blue_04;
   box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
   border-radius: 10px;
 }

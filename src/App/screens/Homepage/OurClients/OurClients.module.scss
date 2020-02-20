@@ -1,0 +1,64 @@
+@import '../../../../global.scss';
+
+.ourClients {
+  margin-top: 190px;
+  background: $blue_04;
+  border-radius: 200px 0px 0px 0px;
+
+  .sectionHeader {
+    padding-top: 95px;
+    display: flex;
+    align-items: center;
+
+    h2 {
+      width: 223px;
+      font-family: Gilroy;
+      font-size: 36px;
+      line-height: 46px;
+      /* or 128% */
+
+      letter-spacing: 0.05em;
+      color: $white;
+    }
+
+    p {
+      margin-left: 95px;
+      width: 540px;
+      font-family: Gilroy;
+      font-size: 16px;
+      line-height: 26px;
+      /* or 162% */
+
+      letter-spacing: 0.05em;
+      color: $white;
+      opacity: 0.6;
+    }
+  }
+
+  .clientsList {
+    margin-top: 110px;
+    padding-bottom: 125px;
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+      width: 235px;
+      text-align: center;
+      padding: 45px 0;
+      font-family: Gilroy;
+      font-size: 20px;
+      line-height: 46px;
+      /* identical to box height, or 230% */
+
+      letter-spacing: 0.02em;
+      color: $gray_06;
+
+      border-right: 1px solid #ffffff;
+      border-bottom: 1px solid #ffffff;
+    }
+
+    .more {
+      background-color: rgba($color: $blue_01, $alpha: 0.2);
+    }
+  }
+}

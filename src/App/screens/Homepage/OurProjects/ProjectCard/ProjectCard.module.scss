@@ -1,0 +1,45 @@
+@import '../../../../../global.scss';
+.projectText {
+  position: absolute;
+  color: $white;
+}
+
+.firstProject {
+  text-align: center;
+
+  .projectText {
+    right: 65px + 210px;
+    text-align: right;
+
+    h3 {
+      margin: 48px 0 0;
+      font-family: Gilroy;
+      font-size: 28px;
+      line-height: 46px;
+      /* identical to box height, or 164% */
+
+      letter-spacing: 0.05em;
+    }
+    p {
+      margin-top: 8px;
+      font-family: Gilroy;
+      font-size: 16px;
+      line-height: 46px;
+      /* identical to box height, or 287% */
+
+      letter-spacing: 0.05em;
+
+      opacity: 0.8;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.project {
+  .projectText {
+    margin-left: 30px;
+  }
+}

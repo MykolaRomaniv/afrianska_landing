@@ -6,9 +6,9 @@ import Button from '../../../components/Button';
 
 const Header = () => {
   return (
-    <section className={classes.header}>
-      <div>
-        <h1>New Automation Tool for Your Home</h1>
+    <header className={classes.header}>
+      <div className={classes.headerText}>
+        <h1>New Automation <br/> Tool for Your Home</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
           tristique vulputate ultrices ut mauris tellus at. Posuere sollicitudin
@@ -16,10 +16,10 @@ const Header = () => {
         </p>
         <Button>See Our Project</Button>
       </div>
-      <div>
+      <div className={classes.headerImg}>
           <img src={headerImg} alt=""/>
       </div>
-    </section>
+    </header>
   )
 }
 
