@@ -1,0 +1,47 @@
+@import '../../../../global.scss';
+
+.contactForm {
+  width: 540px;
+  margin-top: 55px;
+
+  form {
+    margin: 55px;
+
+    .title {
+      margin-bottom: 50px;
+      font-family: Gilroy;
+      font-size: 20px;
+      line-height: 30px;
+      /* identical to box height, or 150% */
+
+      letter-spacing: 0.04em;
+
+      color: $blue_01;
+    }
+
+    .inputBox {
+      margin: 16px 0;
+      .inputLabel {
+        margin: 8px 0;
+        font-family: Gilroy;
+        font-size: 16px;
+        line-height: 30px;
+        /* identical to box height, or 187% */
+
+        letter-spacing: 0.04em;
+
+        color: $blue_01;
+        opacity: 0.8;
+      }
+
+      .inputElement {
+        width: 100%;
+      }
+    }
+
+    .button {
+      margin-top: 70px;
+      text-align: center;
+    }
+  }
+}
