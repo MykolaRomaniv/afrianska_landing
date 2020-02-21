@@ -4,8 +4,9 @@ $blue_02: #316099;
 $blue_03: #356ead;
 $blue_04: #5a98d0;
 $blue_05: #98c3e8;
-$gray_06: #F2F2F2;
-$white: #ffffff;
+$gray_06: #f2f2f2;
+$white: #fff;
+$black: #000;
 $dark-blue-grad: linear-gradient(183.81deg, #42a5f5 -3.62%, #1565c0 88.96%);
 $light-blue-grad: linear-gradient(183.81deg, #98d0fc -3.62%, #3481d7 88.96%);
 $peach-grad: linear-gradient(238.37deg, #fff8e1 0.54%, #ffcc80 88.49%);
@@ -42,10 +43,6 @@ $purple-grad: linear-gradient(180deg, #af6ced 0%, #5e199d 100%);
   box-shadow: 0px 0px 200px rgba(49, 96, 153, 0.4);
 }
 
-.marginLeft {
-  margin-left: 200px;
-}
-
 @font-face {
   font-family: 'Gilroy';
   src: url('./assets/Gilroy-Regular.eot');
@@ -67,22 +64,27 @@ $purple-grad: linear-gradient(180deg, #af6ced 0%, #5e199d 100%);
 
   @for $i from 1 through $max {
     $value: strip-unit(nth($values, $i));
-    $pxValues: #{$pxValues + $value*16}px;
+    $pxValues: #{$pxValues + $value * 16}px;
 
     @if $i < $max {
-      $pxValues: #{$pxValues + " "};
+      $pxValues: #{$pxValues + ' '};
     }
-  } 
+  }
 
   @for $i from 1 through $max {
     $value: strip-unit(nth($values, $i));
     $remValues: #{$remValues + $value}rem;
 
     @if $i < $max {
-      $remValues: #{$remValues + " "};
+      $remValues: #{$remValues + ' '};
     }
-  } 
-  
-  #{$property}: $pxValues; 
-  #{$property}: $remValues; 
+  }
+
+  #{$property}: $pxValues;
+  #{$property}: $remValues;
+}
+
+//TODO change to padding
+.content {
+  margin: 0 210px;
 }

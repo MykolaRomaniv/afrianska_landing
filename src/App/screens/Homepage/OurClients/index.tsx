@@ -15,7 +15,7 @@ const CLIENTS_LOGO = [
 const ourClients = () => {
   return (
     <div className={classes.ourClients}>{/*//TODO check if valid*/}
-      <section>
+      <section className={classes.content}>
         <div className={classes.sectionHeader}>
           <h2>Our Beloved Client</h2>
           <p>

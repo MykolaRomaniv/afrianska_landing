@@ -1,0 +1,34 @@
+@import '../../../global';
+
+.header {
+  background: url('../../../assets/headerBg.png') no-repeat;
+  background-size: cover;
+  text-align: center;
+
+  &>div {
+    padding: 50px 0;
+    h1 {
+        font-family: Gilroy;
+        font-size: 44px;
+        line-height: 74px;
+        /* identical to box height, or 168% */
+    
+        letter-spacing: 0.04em;
+    
+        color: $white;
+      }
+    
+      p {
+        margin: auto;
+        width: 780px;
+        font-family: Gilroy;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+    
+        letter-spacing: 0.04em;
+    
+        color: rgba(255, 255, 255, 0.4);
+      }    
+  }
+}

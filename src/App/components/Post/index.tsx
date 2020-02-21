@@ -2,7 +2,7 @@ import React from 'react'
 
 import BookmarksIcon from '@material-ui/icons/Bookmarks'
 import ShareIcon from '@material-ui/icons/Share'
-
+import dafaultClasses from './Post.module.scss'
 interface IProps {
   img?: string
   title: string
@@ -10,22 +10,31 @@ interface IProps {
   author: string
   date: string //TODO Date
   timeToRead: number
-  classes?: string
+  classes?: typeof dafaultClasses
 }
 
 const post = (props: IProps) => {
+  const classes = props.classes ? {...props.classes,  ...dafaultClasses} : dafaultClasses;
   return (
-    <div className={props.classes}>
-      <div>
+    <div className={classes.post}>
+      <div className={classes.imgContainer}>
         <img src={props.img} alt="" />
       </div>
-      <div>
+      <div className={classes.postContent}>
         <h2>{props.title}</h2>
         <p>{props.body}</p>
-        <div>{props.author}</div>
-        <div>{props.date + ', ' + props.timeToRead + 'min read'}</div>
-        <BookmarksIcon />
-        <ShareIcon />
+        <div className={classes.postFooter}>
+          <div>
+            <div className={classes.author}>{props.author}</div>
+            <div className={classes.date}>
+              {props.date + ', ' + props.timeToRead + 'min read'}
+            </div>
+          </div>
+          <div className={classes.icons}>
+            <BookmarksIcon />
+            <ShareIcon />
+          </div>
+        </div>
       </div>
     </div>
   )

@@ -1,10 +1,12 @@
 @import '../../../global.scss';
 
-.footerWrapper {
-  background: $blue_04;
-  margin-top: -30px;
+// .footerWrapper {
+//   background: $blue_04;
+//   margin-top: -30px;
 
   .footer {
+    padding-left: 210px;
+    padding-right: 195px;
     background: #316099;
     border-radius: 0px 200px 0px 0px;
     margin-right: 95px;
@@ -140,4 +142,4 @@
       opacity: 0.4;
     }
   }
-}
+// }
