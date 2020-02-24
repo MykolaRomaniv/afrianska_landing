@@ -1,4 +1,5 @@
 import React from 'react'
+
 import classes from './ProjectCard.module.scss'
 
 interface IProps {
@@ -12,7 +13,7 @@ interface IProps {
 const Project = (props: IProps) => {
   return (
     <div className={props.isFirst ? classes.firstProject : classes.project}>
-      <div className={classes.projectText} >
+      <div className={classes.projectText}>
         <h3>{props.title}</h3>
         <p>{props.desc}</p>
       </div>

@@ -1,10 +1,10 @@
+import { Paper } from '@material-ui/core'
+import InputLabel from '@material-ui/core/InputLabel'
+import TextField from '@material-ui/core/TextField'
 import React from 'react'
 
-import TextField from '@material-ui/core/TextField'
-import InputLabel from '@material-ui/core/InputLabel'
 import Button from '../../../components/Button'
 import classes from './ContactForm.module.scss'
-import { Paper } from '@material-ui/core'
 
 const contactForm = () => {
   return (
@@ -12,7 +12,9 @@ const contactForm = () => {
       <form action="#">
         <div className={classes.title}>SEND US MESSAGE</div>
         <div className={classes.inputBox}>
-          <InputLabel htmlFor="name" classes={{root: classes.inputLabel}}>Full Name</InputLabel>
+          <InputLabel htmlFor="name" classes={{ root: classes.inputLabel }}>
+            Full Name
+          </InputLabel>
           <TextField
             id="name"
             placeholder="Your Name"
@@ -21,7 +23,9 @@ const contactForm = () => {
           />
         </div>
         <div className={classes.inputBox}>
-          <InputLabel htmlFor="email" classes={{root: classes.inputLabel}}>Email</InputLabel>
+          <InputLabel htmlFor="email" classes={{ root: classes.inputLabel }}>
+            Email
+          </InputLabel>
           <TextField
             id="email"
             placeholder="Your Email"
@@ -30,7 +34,9 @@ const contactForm = () => {
           />
         </div>
         <div className={classes.inputBox}>
-          <InputLabel htmlFor="message" classes={{root: classes.inputLabel}}>Message</InputLabel>
+          <InputLabel htmlFor="message" classes={{ root: classes.inputLabel }}>
+            Message
+          </InputLabel>
           <TextField
             id="message"
             multiline

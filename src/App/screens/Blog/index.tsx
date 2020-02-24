@@ -1,14 +1,12 @@
+import { InputAdornment, OutlinedInput } from '@material-ui/core'
+import SearchIcon from '@material-ui/icons/Search'
 import React from 'react'
 
-import Header from '../../components/Header'
-import SearchIcon from '@material-ui/icons/Search'
-import Popular from './Popular'
-import AllPosts from './AllPosts'
 import Footer from '../../components/Footer'
-import { OutlinedInput, InputAdornment } from '@material-ui/core'
+import Header from '../../components/Header'
+import AllPosts from './AllPosts'
 import classes from './Blog.module.scss'
-
-
+import Popular from './Popular'
 
 const blog = () => {
   return (
@@ -23,9 +21,9 @@ const blog = () => {
         <OutlinedInput
           id="search"
           placeholder="Search Article"
-          classes={{root: classes.search, adornedStart: classes.adornedStart}}
+          classes={{ root: classes.search, adornedStart: classes.adornedStart }}
           startAdornment={
-            <InputAdornment position="start" >
+            <InputAdornment position="start">
               <SearchIcon />
             </InputAdornment>
           }

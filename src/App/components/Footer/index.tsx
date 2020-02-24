@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Button from '../Button'
 import logo from '../../../assets/footerLogo.png'
+import Button from '../Button'
 import classes from './Footer.module.scss'
 
 const footer = () => {
@@ -56,7 +56,9 @@ const footer = () => {
             <div>Youtube</div>
           </div>
         </div>
-        <div className={classes.copyright}>2019 © Afrianska. All rights reserved.</div>
+        <div className={classes.copyright}>
+          2019 © Afrianska. All rights reserved.
+        </div>
       </footer>
     </div>
   )

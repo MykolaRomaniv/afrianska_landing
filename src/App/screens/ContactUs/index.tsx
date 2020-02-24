@@ -1,10 +1,10 @@
-import React from 'react'
 import GoogleMapReact from 'google-map-react'
+import React from 'react'
 
+import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import ContactForm from './ContactForm'
 import ContactInfo from './ContactInfo'
-import Footer from '../../components/Footer'
 import classes from './ContactUs.module.scss'
 
 const DEFAULT_PROPS = {
@@ -35,7 +35,6 @@ const contactUs = () => {
             defaultCenter={DEFAULT_PROPS.center}
             defaultZoom={DEFAULT_PROPS.zoom}
           />
-          {/* </GoogleMapReact> */}
         </div>
       </section>
       <Footer />

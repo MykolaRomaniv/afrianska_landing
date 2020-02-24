@@ -1,8 +1,9 @@
-import React from 'react'
-
 import BookmarksIcon from '@material-ui/icons/Bookmarks'
 import ShareIcon from '@material-ui/icons/Share'
+import React from 'react'
+
 import dafaultClasses from './Post.module.scss'
+
 interface IProps {
   img?: string
   title: string
@@ -14,7 +15,9 @@ interface IProps {
 }
 
 const post = (props: IProps) => {
-  const classes = props.classes ? {...props.classes,  ...dafaultClasses} : dafaultClasses;
+  const classes = props.classes
+    ? { ...props.classes, ...dafaultClasses }
+    : dafaultClasses
   return (
     <div className={classes.post}>
       <div className={classes.imgContainer}>

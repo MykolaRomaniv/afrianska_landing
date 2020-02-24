@@ -1,10 +1,10 @@
+import WebSiteIcon from '@material-ui/icons/Language'
+import MailIcon from '@material-ui/icons/Mail'
+import PhoneIcon from '@material-ui/icons/Phone'
 import React from 'react'
 
 import contactImg from '../../../../assets/contactImg.png'
-import PhoneIcon from '@material-ui/icons/Phone'
-import WebSiteIcon from '@material-ui/icons/Language'
-import MailIcon from '@material-ui/icons/Mail'
-import classes from './ContactInfo.module.scss';
+import classes from './ContactInfo.module.scss'
 
 const contactInfo = () => {
   return (

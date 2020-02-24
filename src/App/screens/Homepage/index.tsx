@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Header from './Header'
-import WhatWeDo from './WhatWeDo'
-import OurProjects from './OurProjects'
-import OurClients from './OurClients'
 import Footer from '../../components/Footer'
-import classes from './Homepage.module.scss';
+import Header from './Header'
+import classes from './Homepage.module.scss'
+import OurClients from './OurClients'
+import OurProjects from './OurProjects'
+import WhatWeDo from './WhatWeDo'
 
 const homepage = () => {
   return (

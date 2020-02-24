@@ -1,7 +1,7 @@
 import React from 'react'
 
-import smartHome from '../../../../assets/SmartHome.png'
 import carRepetition from '../../../../assets/CarRepetition.png'
+import smartHome from '../../../../assets/SmartHome.png'
 import sparklite from '../../../../assets/Sparklite.png'
 import classes from './OurProjects.module.scss'
 import ProjectCard from './ProjectCard'

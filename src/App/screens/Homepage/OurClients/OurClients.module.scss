@@ -15,8 +15,6 @@
       font-family: Gilroy;
       font-size: 36px;
       line-height: 46px;
-      /* or 128% */
-
       letter-spacing: 0.05em;
       color: $white;
     }
@@ -27,8 +25,6 @@
       font-family: Gilroy;
       font-size: 16px;
       line-height: 26px;
-      /* or 162% */
-
       letter-spacing: 0.05em;
       color: $white;
       opacity: 0.6;
@@ -48,11 +44,8 @@
       font-family: Gilroy;
       font-size: 20px;
       line-height: 46px;
-      /* identical to box height, or 230% */
-
       letter-spacing: 0.02em;
       color: $gray_06;
-
       border-right: 1px solid #ffffff;
       border-bottom: 1px solid #ffffff;
     }

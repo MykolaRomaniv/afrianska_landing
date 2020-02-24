@@ -1,10 +1,10 @@
 import React from 'react'
 
-import Post from '../../../components/Post'
 import post1 from '../../../../assets/popular1.png'
 import post2 from '../../../../assets/popular2.png'
 import post3 from '../../../../assets/popular3.png'
 import post4 from '../../../../assets/popular4.png'
+import Post from '../../../components/Post'
 import classes from './Popular.module.scss'
 
 const popular = () => {

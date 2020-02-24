@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Card from './Card'
 import bringTechnology from '../../../../assets/bringTechnology.png'
 import buildYourProduct from '../../../../assets/buildYourProduct.png'
 import makeYourBusines from '../../../../assets/makeYourBusines.png'
+import Card from './Card'
 import classes from './WhatWeDo.module.scss'
 
 const whatWeDo = () => {

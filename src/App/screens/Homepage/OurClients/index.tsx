@@ -14,7 +14,8 @@ const CLIENTS_LOGO = [
 
 const ourClients = () => {
   return (
-    <div className={classes.ourClients}>{/*//TODO check if valid*/}
+    <div className={classes.ourClients}>
+      {/*//TODO check if valid*/}
       <section className={classes.content}>
         <div className={classes.sectionHeader}>
           <h2>Our Beloved Client</h2>
@@ -25,7 +26,9 @@ const ourClients = () => {
           </p>
         </div>
         <div className={classes.clientsList}>
-          {CLIENTS_LOGO.map((logo, index) => <div key={index}>{logo}</div>)}
+          {CLIENTS_LOGO.map((logo, index) => (
+            <div key={index}>{logo}</div>
+          ))}
           <div className={classes.more}>More Clients</div>
         </div>
       </section>

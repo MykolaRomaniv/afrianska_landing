@@ -1,6 +1,6 @@
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward'
 import React from 'react'
 
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward'
 import classes from './Card.module.scss'
 
 interface IProps {

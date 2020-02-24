@@ -1,13 +1,13 @@
 import React from 'react'
 
-import classes from './Button.module.scss';
+import classes from './Button.module.scss'
 
 interface IProps {
-    children: string
+  children: string
 }
 
 const button = (props: IProps) => {
-return <button className={classes.primaryBtn}>{props.children}</button>
+  return <button className={classes.primaryBtn}>{props.children}</button>
 }
 
 export default button

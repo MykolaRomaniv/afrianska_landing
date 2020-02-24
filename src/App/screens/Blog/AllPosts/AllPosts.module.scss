@@ -5,10 +5,7 @@
     font-family: Gilroy;
     font-size: 20px;
     line-height: 25px;
-    /* identical to box height */
-
     letter-spacing: 0.04em;
-
     color: $blue_03;
     opacity: 0.8;
   }
@@ -20,9 +17,6 @@
       align-items: center;
       margin-bottom: 30px;
 
-      .imgContainer {
-      }
-
       .postContent {
         padding-left: 20px;
 
@@ -31,12 +25,7 @@
           font-family: Galien;
           font-size: 28px;
           line-height: 38px;
-          /* identical to box height, or 136% */
-
           letter-spacing: 0.04em;
-
-          /* Blue_01 */
-
           color: $blue_01;
         }
 
@@ -44,10 +33,7 @@
           font-family: Gilroy;
           font-size: 16px;
           line-height: 26px;
-          /* or 162% */
-
           letter-spacing: 0.04em;
-
           color: $black;
           opacity: 0.6;
         }
@@ -60,10 +46,7 @@
             font-family: Gilroy;
             font-size: 14px;
             line-height: 24px;
-            /* identical to box height, or 171% */
-
             letter-spacing: 0.04em;
-
             color: $blue_01;
           }
 
@@ -71,10 +54,7 @@
             font-family: Gilroy;
             font-size: 14px;
             line-height: 24px;
-            /* identical to box height, or 171% */
-
             letter-spacing: 0.04em;
-
             color: $black;
             opacity: 0.4;
           }
@@ -102,12 +82,8 @@
       font-family: Gilroy;
       font-size: 16px;
       line-height: 20px;
-      /* identical to box height */
-
       letter-spacing: 0.04em;
-
       color: $blue_03;
-
       display: flex;
       align-items: center;
 

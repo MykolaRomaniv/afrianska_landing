@@ -5,10 +5,7 @@
     font-family: Gilroy;
     font-size: 20px;
     line-height: 25px;
-    /* identical to box height */
-
     letter-spacing: 0.04em;
-
     color: $blue_03;
     opacity: 0.8;
     margin-bottom: 50px;
@@ -30,10 +27,7 @@
         font-family: Galien;
         font-size: 28px;
         line-height: 38px;
-        /* or 136% */
-
         letter-spacing: 0.04em;
-
         color: $blue_01;
       }
 
@@ -41,13 +35,11 @@
         font-family: Gilroy;
         font-size: 16px;
         line-height: 26px;
-        /* or 162% */
-
         letter-spacing: 0.04em;
-
         color: $black;
         opacity: 0.6;
       }
+
       .postFooter {
         display: flex;
         justify-content: space-between;
@@ -58,10 +50,7 @@
             font-family: Gilroy;
             font-size: 14px;
             line-height: 24px;
-            /* identical to box height, or 171% */
-
             letter-spacing: 0.04em;
-
             color: $blue_01;
           }
 
@@ -69,10 +58,7 @@
             font-family: Gilroy;
             font-size: 14px;
             line-height: 24px;
-            /* identical to box height, or 171% */
-
             letter-spacing: 0.04em;
-
             color: $black;
             opacity: 0.4;
           }
@@ -110,7 +96,6 @@
         margin-top: 0;
         font-size: 48px;
         line-height: 58px;
-        /* or 121% */
       }
 
       p {
@@ -123,15 +108,11 @@
     font-family: Gilroy;
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height */
-    
     text-align: right;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    
     color: $blue_03;
     opacity: 0.8;
-
     margin-bottom: 25px;
   }
 }
