@@ -1,19 +1,17 @@
 @import '../../../../global';
+@import '~sass-rem';
 
 .header {
+  @extend .content;
   height: calc(100vh - 150px);
-  width: 100%;
   background-image: $white-light-blue-grad;
   background-color: rgba($color: #fff, $alpha: 0.2);
   display: flex;
 
   .headerText {
-    margin-left: 210px;
-
     h1 {
       font-weight: normal;
       margin: 0;
-      width: 510px;
       color: $blue_01;
       font-family: Galien;
       font-size: 56px;
@@ -35,5 +33,52 @@
 
   .headerImg {
     margin-left: -35px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    padding-right: 5%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .headerImg {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: fit-content;
+
+    .headerText {
+      margin: 0 15% 15%;
+      p {
+        width: unset;
+        word-wrap: break-word;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    padding: 0 5%;
+    
+    .headerText {
+      text-align: center;
+      margin-left: 0;
+      margin-right: 0;
+
+      h1 {
+        font-size: 50px;
+        line-height: 64px;
+      }
+    }
   }
 }

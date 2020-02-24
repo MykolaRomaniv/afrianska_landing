@@ -1,11 +1,9 @@
 @import '../../../global.scss';
-
 .footer {
-  padding-left: 210px;
-  padding-right: 195px;
+  @extend .content;
   background: #316099;
   border-radius: 0px 200px 0px 0px;
-  margin-right: 95px;
+  margin-right: 7%;
 
   .footerHeader {
     padding: 95px 0;
@@ -129,5 +127,60 @@ a {
     color: inherit;
     cursor: pointer;
     text-decoration: underline;
+  }
+}
+
+@media (max-width: 880px) {
+  .footer {
+    .footerHeader {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .button {
+        align-self: flex-start;
+        margin-left: 60px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    .row {
+      flex-direction: column;
+    }
+
+    .footerHeader {
+      .footerText {
+        h2 {
+          width: unset;
+        }
+
+        p {
+          width: unset;
+        }
+      }
+      .button {
+        margin: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    .row {
+      align-items: center;
+    }
+
+    .column {
+      margin-top: 32px;
+      text-align: center;
+    }
+
+    .logo {
+      justify-content: center;
+    }
   }
 }

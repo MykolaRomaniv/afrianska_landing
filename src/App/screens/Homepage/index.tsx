@@ -11,10 +11,8 @@ const homepage = () => {
   return (
     <>
       <Header />
-      <div className={classes.content}>
         <WhatWeDo />
         <OurProjects />
-      </div>
       <OurClients />
       <div className={classes.footerWrapper}>
         <Footer />

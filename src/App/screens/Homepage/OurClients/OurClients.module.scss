@@ -11,7 +11,6 @@
     align-items: center;
 
     h2 {
-      width: 223px;
       font-family: Gilroy;
       font-size: 36px;
       line-height: 46px;
@@ -36,11 +35,12 @@
     padding-bottom: 125px;
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: center;
+    
     div {
       width: 235px;
       text-align: center;
-      padding: 45px 15px;
+      padding: 45px 0;
       font-family: Gilroy;
       font-size: 20px;
       line-height: 46px;
@@ -57,6 +57,23 @@
 
     .more {
       background-color: rgba($color: $blue_01, $alpha: 0.2);
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .ourClients {
+    .sectionHeader {
+      flex-direction: column;
+
+      h2, p {
+        text-align: center;
+      }
+
+      p {
+        margin: auto;
+        width: unset;
+      }
     }
   }
 }

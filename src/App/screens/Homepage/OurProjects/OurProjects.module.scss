@@ -1,6 +1,8 @@
 @import '../../../../global.scss';
 
 .ourProjects {
+  @extend .content;
+
   .sectionHeader {
     display: flex;
     align-items: center;
@@ -32,7 +34,44 @@
     .otherProjects {
       display: flex;
       justify-content: space-between;
-      margin-top: 90px;
+
+      & > div {
+        margin-top: 90px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .projects {
+    .otherProjects {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .ourProjects {
+    .sectionHeader {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .ourProjects {
+    .sectionHeader {
+      flex-direction: column;
+
+      p {
+        width: unset;
+        margin: 0;
+      }
     }
   }
 }

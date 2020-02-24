@@ -18,9 +18,11 @@ const footer = () => {
               enim ad minim veniam.
             </p>
           </div>
-          <Link to="/contact-us#start">
-            <Button>Let’s Talk</Button>
-          </Link>
+          <div className={classes.button}>
+            <Link to="/contact-us#start">
+              <Button>Let’s Talk</Button>
+            </Link>
+          </div>
         </div>
         <hr />
         <div className={classes.row}>
