@@ -39,9 +39,16 @@
     padding-bottom: 48px;
     display: flex;
     align-items: center;
-
-    & > span {
+    cursor: pointer;
+    margin-left: 48px;
+    
+    span {
+      color:inherit;
       padding-right: 16px;
+    }
+
+    &:hover {
+      text-decoration: underline;
     }
   }
 }

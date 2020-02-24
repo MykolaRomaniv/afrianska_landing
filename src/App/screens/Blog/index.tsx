@@ -21,7 +21,7 @@ const blog = () => {
         <OutlinedInput
           id="search"
           placeholder="Search Article"
-          classes={{ root: classes.search, adornedStart: classes.adornedStart }}
+          classes={{ root: classes.search }}
           startAdornment={
             <InputAdornment position="start">
               <SearchIcon />

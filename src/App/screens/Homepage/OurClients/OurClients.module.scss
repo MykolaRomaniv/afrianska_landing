@@ -40,7 +40,7 @@
     div {
       width: 235px;
       text-align: center;
-      padding: 45px 0;
+      padding: 45px 15px;
       font-family: Gilroy;
       font-size: 20px;
       line-height: 46px;
@@ -48,6 +48,11 @@
       color: $gray_06;
       border-right: 1px solid #ffffff;
       border-bottom: 1px solid #ffffff;
+
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
     }
 
     .more {

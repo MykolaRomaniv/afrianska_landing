@@ -8,7 +8,7 @@ import classes from './WhatWeDo.module.scss'
 
 const whatWeDo = () => {
   return (
-    <section className={classes.whatWeDo}>
+    <section className={classes.whatWeDo} id="whatWeDo">
       <div className={classes.column}>
         <h2>What we do to help our client grow in digital era,</h2>
         <Card

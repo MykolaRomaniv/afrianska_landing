@@ -13,4 +13,9 @@
   background: $blue_04;
   box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
   border-radius: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background: #356ead;
+  }
 }

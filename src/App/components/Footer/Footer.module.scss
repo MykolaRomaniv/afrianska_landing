@@ -45,6 +45,7 @@
 
   //TODO check design
   .row {
+    color: $white;
     margin-top: 95px;
     display: flex;
     justify-content: space-between;
@@ -117,5 +118,16 @@
     letter-spacing: 0.05em;
     color: $white;
     opacity: 0.4;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:hover {
+    color: inherit;
+    cursor: pointer;
+    text-decoration: underline;
   }
 }

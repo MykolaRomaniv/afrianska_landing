@@ -1,5 +1,6 @@
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward'
 import React from 'react'
+import { HashLink as Link } from 'react-router-hash-link'
 
 import classes from './Card.module.scss'
 
@@ -20,10 +21,12 @@ const Card = (props: IProps) => {
         <h3>{props.title}</h3>
         <p>{props.desc}</p>
       </div>
-      <div className={classes.learnMore}>
-        <span>Learn more</span>
-        <ArrowForwardIcon />
-      </div>
+      <Link to="/blog#start">
+        <div className={classes.learnMore}>
+          <span>Learn more</span>
+          <ArrowForwardIcon />
+        </div>
+      </Link>
     </div>
   )
 }

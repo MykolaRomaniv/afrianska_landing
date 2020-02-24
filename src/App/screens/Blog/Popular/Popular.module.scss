@@ -65,9 +65,11 @@
         }
 
         .icons {
+          display: flex;
           color: $blue_03;
 
-          * {
+          svg {
+            color: $blue_03;
             padding: 0 18px;
           }
         }

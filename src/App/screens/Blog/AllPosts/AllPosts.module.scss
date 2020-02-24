@@ -63,7 +63,8 @@
             margin-left: 100px;
             color: $blue_03;
 
-            * {
+            svg {
+              color: $blue_03;
               padding: 0 18px;
             }
           }
@@ -88,7 +89,12 @@
       align-items: center;
 
       span {
-        margin-left: 20px;
+        margin: 0 20px;
+      }
+
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
       }
     }
   }

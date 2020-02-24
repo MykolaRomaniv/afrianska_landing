@@ -8,7 +8,7 @@ import ProjectCard from './ProjectCard'
 
 const ourProject = () => {
   return (
-    <section className={classes.ourProjects}>
+    <section className={classes.ourProjects} id="projects">
       <div className={classes.sectionHeader}>
         <h2>Our Finished Project</h2>
         <p>

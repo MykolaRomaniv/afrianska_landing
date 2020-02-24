@@ -22,22 +22,22 @@ const contactInfo = () => {
         <div className={classes.title}>PHONE</div>
         <div className={classes.iconBox}>
           <PhoneIcon />
-          <span>+62-812-7313-4321</span>
+          <span><a href="tel:+62-812-7313-4321">+62-812-7313-4321</a></span>
         </div>
         <div className={classes.iconBox}>
           <PhoneIcon />
-          <span>+62-817-000-1234</span>
+          <span><a href="tel:+62-817-000-1234">+62-817-000-1234</a></span>
         </div>
       </div>
       <div>
         <div className={classes.title}>ONLINE SERVICE</div>
         <div className={classes.iconBox}>
           <WebSiteIcon />
-          <span>www.afrianska.com</span>
+          <span><a href="www.afrianska.com">www.afrianska.com</a></span>
         </div>
         <div className={classes.iconBox}>
           <MailIcon />
-          <span>hello.afrian@gmail.com</span>
+          <span><a href="mailto:hello.afrian@gmail.com">hello.afrian@gmail.com</a></span>
         </div>
       </div>
     </div>

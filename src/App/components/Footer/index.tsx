@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink as Link } from 'react-router-hash-link'
 
 import logo from '../../../assets/footerLogo.png'
 import Button from '../Button'
@@ -17,43 +18,71 @@ const footer = () => {
               enim ad minim veniam.
             </p>
           </div>
-          <Button>Let’s Talk</Button>
+          <Link to="/contact-us#start">
+            <Button>Let’s Talk</Button>
+          </Link>
         </div>
         <hr />
         <div className={classes.row}>
           <div>
-            <div className={classes.logo}>
-              <div>
-                <img src={logo} alt="" />
+            <Link to="/#start">
+              <div className={classes.logo}>
+                <div>
+                  <img src={logo} alt="" />
+                </div>
+                <span>Afrianska</span>
               </div>
-              <span>Afrianska</span>
-            </div>
+            </Link>
             <div className={classes.aboutInfo}>
               <div>
                 <span>A.</span>Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit.
               </div>
               <div>
-                <span>T.</span>+62-812-7313-4321
+                <span>T.</span>
+                <a href="tel:+62-812-7313-4321">+62-812-7313-4321 </a>
               </div>
               <div>
-                <span>E</span>hello.afrian@gmail.com
+                <span>E</span>
+                <a href="mailto:hello.afrian@gmail.com">
+                  hello.afrian@gmail.com
+                </a>
               </div>
             </div>
           </div>
           <div className={classes.column}>
-            <div className={classes.columnName}>About US</div>
-            <div>About</div>
-            <div>What We Do</div>
-            <div>Projects</div>
-            <div>How It Work With Us</div>
+            <Link to="/#start">
+              <div className={classes.columnName}>About US</div>
+            </Link>
+            <Link to="/#header">
+              <div>About</div>
+            </Link>
+            <Link to="/#whatWeDo">
+              <div>What We Do</div>
+            </Link>
+            <Link to="/#projects">
+              <div>Projects</div>
+            </Link>
+            <Link to="/#clients">
+              <div>How It Work With Us</div>
+            </Link>
           </div>
           <div className={classes.column}>
-            <div className={classes.columnName}>Follow US</div>
-            <div>Instagram</div>
-            <div>Facebook</div>
-            <div>LinkedIn</div>
-            <div>Youtube</div>
+            <Link to="/contact-us#start">
+              <div className={classes.columnName}>Follow US</div>
+            </Link>
+            <Link to="#">
+              <div>Instagram</div>
+            </Link>
+            <Link to="#">
+              <div>Facebook</div>
+            </Link>
+            <Link to="#">
+              <div>LinkedIn</div>
+            </Link>
+            <Link to="#">
+              <div>Youtube</div>
+            </Link>
           </div>
         </div>
         <div className={classes.copyright}>

@@ -1,6 +1,7 @@
 import BookmarksIcon from '@material-ui/icons/Bookmarks'
 import ShareIcon from '@material-ui/icons/Share'
 import React from 'react'
+import { HashLink as Link } from 'react-router-hash-link'
 
 import dafaultClasses from './Post.module.scss'
 
@@ -34,8 +35,12 @@ const post = (props: IProps) => {
             </div>
           </div>
           <div className={classes.icons}>
-            <BookmarksIcon />
-            <ShareIcon />
+            <Link to="#">
+              <BookmarksIcon />
+            </Link>
+            <Link to="#">
+              <ShareIcon />
+            </Link>
           </div>
         </div>
       </div>

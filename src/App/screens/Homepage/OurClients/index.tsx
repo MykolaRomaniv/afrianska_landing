@@ -1,6 +1,7 @@
 import React from 'react'
 
 import classes from './OurClients.module.scss'
+import { HashLink as Link } from 'react-router-hash-link'
 
 const CLIENTS_LOGO = [
   'LOGO CLIENT 1',
@@ -14,7 +15,7 @@ const CLIENTS_LOGO = [
 
 const ourClients = () => {
   return (
-    <div className={classes.ourClients}>
+    <div className={classes.ourClients} id="clients">
       {/*//TODO check if valid*/}
       <section className={classes.content}>
         <div className={classes.sectionHeader}>
@@ -27,9 +28,13 @@ const ourClients = () => {
         </div>
         <div className={classes.clientsList}>
           {CLIENTS_LOGO.map((logo, index) => (
-            <div key={index}>{logo}</div>
+            <Link to="#" key={index}>
+              <div>{logo}</div>
+            </Link>
           ))}
-          <div className={classes.more}>More Clients</div>
+          <Link to="#">
+            <div className={classes.more}>More Clients</div>
+          </Link>
         </div>
       </section>
     </div>
