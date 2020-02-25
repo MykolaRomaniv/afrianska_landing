@@ -23,6 +23,7 @@
     margin-bottom: 55px;
 
     .postContent {
+      margin-right: 25px;
       h2 {
         font-family: Galien;
         font-size: 28px;
@@ -86,14 +87,14 @@
     margin-bottom: 35px;
 
     .imgContainer {
+      min-width: 50%;
+
       img {
         width: 100%;
       }
     }
 
     .postContent {
-      width: 380px;
-
       h2 {
         margin-top: 0;
         font-size: 48px;
@@ -116,5 +117,57 @@
     color: $blue_03;
     opacity: 0.8;
     margin-bottom: 25px;
+  }
+
+  @media (max-width: 1280px) {
+    .otherPosts {
+      flex-direction: column;
+    }
+
+    .post {
+      display: flex;
+      flex-flow: row-reverse;
+      width: initial;
+      justify-content: space-between;
+      margin-bottom: 35px;
+    }
+  }
+
+  @media (max-width: 950px) {
+    .firstPost {
+      .imgContainer {
+        min-width: 45%;
+
+        img {
+          width: 100%;
+        }
+      }
+      .postContent {
+        h2 {
+          font-size: 28px;
+          line-height: 38px;
+        }
+      }
+    }
+
+    .post {
+      .imgContainer {
+        min-width: 45%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .post {
+      display: initial;
+
+      .postContent {
+        margin: 25px 25px 50px;
+      }
+    }
   }
 }
