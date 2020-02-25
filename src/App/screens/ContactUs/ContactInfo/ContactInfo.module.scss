@@ -34,3 +34,22 @@
     }
   }
 }
+
+@media (max-width: 950px) {
+  .contactInfo {
+    text-align: center;
+    width: 90%;
+
+    .iconBox {
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .contactInfo {
+    img {
+      width: 100%;
+    }
+  }
+}

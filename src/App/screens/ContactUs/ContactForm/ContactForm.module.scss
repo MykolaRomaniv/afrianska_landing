@@ -1,7 +1,7 @@
 @import '../../../../global.scss';
 
 .contactForm {
-  width: 540px;
+  width: 50%;
   margin-top: 55px;
 
   form {
@@ -36,6 +36,22 @@
     .button {
       margin-top: 70px;
       text-align: center;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .contactForm {
+    width: 90%;
+  }
+}
+
+@media (max-width: 550px) {
+  .contactForm {
+    form {
+      button {
+        width: 100%;
+      }
     }
   }
 }
