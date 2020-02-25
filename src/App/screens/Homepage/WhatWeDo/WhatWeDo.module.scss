@@ -1,4 +1,6 @@
-@import '../../../../global.scss';
+.content {
+  padding: 0 15%;
+}
 
 .whatWeDo {
   @extend .content;
@@ -17,7 +19,7 @@
     font-size: 34px;
     line-height: 46px;
     letter-spacing: 0.05em;
-    color: $blue_02;
+    color: var(--blue_02);
   }
 }
 

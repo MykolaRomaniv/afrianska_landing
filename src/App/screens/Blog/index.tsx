@@ -17,7 +17,7 @@ const blog = () => {
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
       />
 
-      <div className={[classes.content, classes.blog].join(' ')}>
+      <div className={classes.blog}>
         <OutlinedInput
           id="search"
           placeholder="Search Article"

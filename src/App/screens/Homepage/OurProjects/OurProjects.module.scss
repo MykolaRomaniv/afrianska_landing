@@ -1,4 +1,6 @@
-@import '../../../../global.scss';
+.content {
+  padding: 0 15%;
+}
 
 .ourProjects {
   @extend .content;
@@ -13,7 +15,7 @@
       font-size: 36px;
       line-height: 46px;
       letter-spacing: 0.05em;
-      color: $blue_01;
+      color: var(--blue_01);
     }
 
     p {
@@ -23,7 +25,7 @@
       font-size: 16px;
       line-height: 26px;
       letter-spacing: 0.05em;
-      color: $blue_01;
+      color: var(--blue_01);
       opacity: 0.6;
     }
   }

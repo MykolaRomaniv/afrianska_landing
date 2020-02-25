@@ -1,6 +1,9 @@
-@import '../../../global.scss';
+.content {
+  padding: 0 15%;
+}
 
 .blog {
+  @extend .content;
   .search {
     margin: 55px 0;
     background: #f4f4f4;
@@ -9,7 +12,7 @@
 
     svg {
       cursor: pointer;
-      color: $blue_01;
+      color: var(--blue_01);
       opacity: 0.6;
       padding: 20px 27px;
       margin: -14px;
@@ -21,8 +24,7 @@
   }
 
   hr {
-    color: $black;
+    color: var(--black);
     opacity: 0.2;
   }
 }
-

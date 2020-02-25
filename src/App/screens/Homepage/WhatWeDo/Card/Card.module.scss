@@ -1,10 +1,12 @@
-@import '../../../../../global.scss';
+.shadow1 {
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+}
 
 .card {
   width: 380px;
   @extend .shadow1;
   text-align: left;
-  color: $blue_01;
+  color: var(--blue_01);
   border-radius: 10px;
   margin: 50px;
 
@@ -35,7 +37,7 @@
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.05em;
-    color: $blue_04;
+    color: var(--blue_04);
     padding-bottom: 48px;
     display: flex;
     align-items: center;
@@ -64,7 +66,7 @@
   .card {
     width: unset;
     padding: 0 5%;
-    
+
     & > div {
       margin-left: 0;
       width: unset;

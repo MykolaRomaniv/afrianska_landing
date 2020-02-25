@@ -3,7 +3,7 @@ import ShareIcon from '@material-ui/icons/Share'
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link'
 
-import dafaultClasses from './Post.module.scss'
+import dafaultClasses from './Post.module.scss' //TODO
 
 interface IProps {
   img?: string

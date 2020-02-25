@@ -1,4 +1,6 @@
-@import '../../../global';
+.content {
+  padding: 0 15%;
+}
 
 .header {
   @extend .content;
@@ -13,7 +15,7 @@
       font-size: 44px;
       line-height: 74px;
       letter-spacing: 0.04em;
-      color: $white;
+      color: var(--white);
     }
 
     p {
@@ -22,7 +24,7 @@
       font-size: 20px;
       line-height: 30px;
       letter-spacing: 0.04em;
-      color: $black;
+      color: var(--black);
       opacity: 0.4;
     }
   }

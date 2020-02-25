@@ -1,7 +1,7 @@
 import React from 'react'
+import { HashLink as Link } from 'react-router-hash-link'
 
 import classes from './OurClients.module.scss'
-import { HashLink as Link } from 'react-router-hash-link'
 
 const CLIENTS_LOGO = [
   'LOGO CLIENT 1',
@@ -16,7 +16,6 @@ const CLIENTS_LOGO = [
 const ourClients = () => {
   return (
     <div className={classes.ourClients} id="clients">
-      {/*//TODO check if valid*/}
       <section className={classes.content}>
         <div className={classes.sectionHeader}>
           <h2>Our Beloved Client</h2>

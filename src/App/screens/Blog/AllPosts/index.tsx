@@ -1,13 +1,13 @@
-import React from 'react'
 import ArrowBackIcon from '@material-ui/icons/ArrowBack'
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward'
+import React from 'react'
 
-import Post from '../../../components/Post'
 import allPost1 from '../../../../assets/allPost1.png'
 import allPost2 from '../../../../assets/allPost2.png'
 import allPost3 from '../../../../assets/allPost3.png'
 import allPost4 from '../../../../assets/allPost4.png'
 import allPost5 from '../../../../assets/allPost5.png'
+import Post from '../../../components/Post'
 import classes from './AllPosts.module.scss'
 
 const allArticles = () => {

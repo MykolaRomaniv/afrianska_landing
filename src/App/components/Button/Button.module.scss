@@ -1,5 +1,3 @@
-@import '../../../global.scss';
-
 .primaryBtn {
   border: none;
   font-family: Gilroy;
@@ -7,10 +5,10 @@
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.04em;
-  color: $white;
+  color: var(--white);
   width: 220px;
   height: 55px;
-  background: $blue_04;
+  background: var(--blue_04);
   box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
   border-radius: 10px;
   cursor: pointer;

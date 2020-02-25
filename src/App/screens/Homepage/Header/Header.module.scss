@@ -1,18 +1,19 @@
-@import '../../../../global';
-@import '~sass-rem';
+.content {
+  padding: 0 15%;
+}
 
 .header {
   @extend .content;
   height: calc(100vh - 150px);
-  background-image: $white-light-blue-grad;
-  background-color: rgba($color: #fff, $alpha: 0.2);
+  background-image: var(--white-light-blue-grad);
+  background-color: rgba(#fff, 0.2);
   display: flex;
 
   .headerText {
     h1 {
       font-weight: normal;
       margin: 0;
-      color: $blue_01;
+      color: var(--blue_01);
       font-family: Galien;
       font-size: 56px;
       line-height: 72px;
@@ -25,7 +26,7 @@
       font-size: 16px;
       line-height: 26px;
       letter-spacing: 0.05em;
-      color: $blue_01;
+      color: var(--blue_01);
       opacity: 0.6;
       margin: 30px 0 70px 0;
     }
@@ -69,7 +70,7 @@
 @media (max-width: 425px) {
   .header {
     padding: 0 5%;
-    
+
     .headerText {
       text-align: center;
       margin-left: 0;

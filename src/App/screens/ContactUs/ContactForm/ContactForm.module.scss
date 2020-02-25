@@ -1,5 +1,3 @@
-@import '../../../../global.scss';
-
 .contactForm {
   width: 50%;
   margin-top: 55px;
@@ -13,7 +11,7 @@
       font-size: 20px;
       line-height: 30px;
       letter-spacing: 0.04em;
-      color: $blue_01;
+      color: var(--blue_01);
     }
 
     .inputBox {
@@ -24,7 +22,7 @@
         font-size: 16px;
         line-height: 30px;
         letter-spacing: 0.04em;
-        color: $blue_01;
+        color: var(--blue_01);
         opacity: 0.8;
       }
 

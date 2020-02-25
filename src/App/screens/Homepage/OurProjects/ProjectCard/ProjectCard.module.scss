@@ -1,8 +1,6 @@
-@import '../../../../../global.scss';
-
 .projectText {
   position: absolute;
-  color: $white;
+  color: var(--white);
 }
 
 .firstProject {
@@ -31,8 +29,6 @@
   }
 
   img {
-    //? can be changed to this
-    // min-height: 420px;
     width: 100%;
   }
 }

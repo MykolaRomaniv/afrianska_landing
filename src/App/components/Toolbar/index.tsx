@@ -1,14 +1,14 @@
-import MenuIcon from '@material-ui/icons/Menu'
-import React, { Component } from 'react'
-import { HashLink as Link } from 'react-router-hash-link'
 import Drawer from '@material-ui/core/Drawer'
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemIcon from '@material-ui/core/ListItemIcon'
 import ListItemText from '@material-ui/core/ListItemText'
+import ContactMailIcon from '@material-ui/icons/ContactMail'
+import ForumIcon from '@material-ui/icons/Forum'
 import HomeIcon from '@material-ui/icons/Home'
-import ForumIcon from '@material-ui/icons/Forum';
-import ContactMailIcon from '@material-ui/icons/ContactMail';
+import MenuIcon from '@material-ui/icons/Menu'
+import React, { Component } from 'react'
+import { HashLink as Link } from 'react-router-hash-link'
 
 import logo from '../../../assets/logo.svg'
 import classes from './Toolbar.module.scss'

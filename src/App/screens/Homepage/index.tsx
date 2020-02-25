@@ -11,8 +11,8 @@ const homepage = () => {
   return (
     <>
       <Header />
-        <WhatWeDo />
-        <OurProjects />
+      <WhatWeDo />
+      <OurProjects />
       <OurClients />
       <div className={classes.footerWrapper}>
         <Footer />

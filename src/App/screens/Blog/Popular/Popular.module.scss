@@ -1,12 +1,10 @@
-@import '../../../../global.scss';
-
 .popular {
   .title {
     font-family: Gilroy;
     font-size: 20px;
     line-height: 25px;
     letter-spacing: 0.04em;
-    color: $blue_03;
+    color: var(--blue_03);
     opacity: 0.8;
     margin-bottom: 50px;
   }
@@ -29,7 +27,7 @@
         font-size: 28px;
         line-height: 38px;
         letter-spacing: 0.04em;
-        color: $blue_01;
+        color: var(--blue_01);
       }
 
       p {
@@ -37,7 +35,7 @@
         font-size: 16px;
         line-height: 26px;
         letter-spacing: 0.04em;
-        color: $black;
+        color: var(--black);
         opacity: 0.6;
       }
 
@@ -52,7 +50,7 @@
             font-size: 14px;
             line-height: 24px;
             letter-spacing: 0.04em;
-            color: $blue_01;
+            color: var(--blue_01);
           }
 
           .date {
@@ -60,17 +58,17 @@
             font-size: 14px;
             line-height: 24px;
             letter-spacing: 0.04em;
-            color: $black;
+            color: var(--black);
             opacity: 0.4;
           }
         }
 
         .icons {
           display: flex;
-          color: $blue_03;
+          color: var(--blue_03);
 
           svg {
-            color: $blue_03;
+            color: var(--blue_03);
             padding: 0 18px;
           }
         }
@@ -114,7 +112,7 @@
     text-align: right;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: $blue_03;
+    color: var(--blue_03);
     opacity: 0.8;
     margin-bottom: 25px;
   }
