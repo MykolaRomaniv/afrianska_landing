@@ -26,7 +26,7 @@ const ourClients = () => {
           </p>
         </div>
         <div className={classes.clientsList}>
-          {CLIENTS_LOGO.map((logo, index) => (
+          {CLIENTS_LOGO.map((logo: string, index: number) => (
             <Link to="#" key={index}>
               <div>{logo}</div>
             </Link>

@@ -28,9 +28,7 @@ const footer = () => {
         <div>
           <Link to="/#start">
             <div className={classes.logo}>
-              <div>
-                <img src={logo} alt="" />
-              </div>
+              <img src={logo} alt="" />
               <span>Afrianska</span>
             </div>
           </Link>
