@@ -1,0 +1,20 @@
+.content {
+  padding: 0 15%;
+}
+
+.contactUs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map {
+  height: 480px;
+  margin: 95px 0;
+}
+
+@media (max-width: 950px) {
+  .contactUs {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}

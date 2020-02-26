@@ -1,0 +1,56 @@
+.content {
+  padding: 0 15%;
+}
+
+.whatWeDo {
+  @extend .content;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 190px;
+
+  .column {
+    display: flex;
+    flex-flow: column;
+  }
+
+  h2 {
+    max-width: 360px;
+    font-family: Gilroy;
+    font-size: 34px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: var(--blue_02);
+  }
+}
+
+@media (max-width: 1023px) {
+  .whatWeDo {
+    flex-wrap: wrap;
+
+    .column {
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .whatWeDo {
+    .column {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .whatWeDo {
+    padding: 0 5%;
+
+    h2 {
+      text-align: center;
+    }
+
+    .column {
+      width: 100%;
+    }
+  }
+}

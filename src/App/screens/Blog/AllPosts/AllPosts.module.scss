@@ -1,0 +1,107 @@
+.allPosts {
+  h2 {
+    font-family: Gilroy;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: var(--blue_03);
+    opacity: 0.8;
+  }
+
+  .posts {
+    .post {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+
+      .postContent {
+        padding-left: 20px;
+
+        h2 {
+          margin-top: 0;
+          font-family: Galien;
+          font-size: 28px;
+          line-height: 38px;
+          letter-spacing: 0.04em;
+          color: var(--blue_01);
+        }
+
+        p {
+          font-family: Gilroy;
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: 0.04em;
+          color: var(--black);
+          opacity: 0.6;
+        }
+
+        .postFooter {
+          display: flex;
+          align-items: center;
+
+          .author {
+            font-family: Gilroy;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.04em;
+            color: var(--blue_01);
+          }
+
+          .date {
+            font-family: Gilroy;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0.04em;
+            color: var(--black);
+            opacity: 0.4;
+          }
+
+          .icons {
+            margin-left: 100px;
+            color: var(--blue_03);
+
+            svg {
+              color: var(--blue_03);
+              padding: 0 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .navigation {
+    margin-top: 55px;
+    margin-bottom: 95px;
+    display: flex;
+    justify-content: space-between;
+
+    .navItem {
+      font-family: Gilroy;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.04em;
+      color: var(--blue_03);
+      display: flex;
+      align-items: center;
+
+      span {
+        margin: 0 20px;
+      }
+
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .posts {
+    .post {
+      flex-direction: column;
+    }
+  }
+}

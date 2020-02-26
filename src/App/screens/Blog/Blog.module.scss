@@ -1,0 +1,30 @@
+.content {
+  padding: 0 15%;
+}
+
+.blog {
+  @extend .content;
+  .search {
+    margin: 55px 0;
+    background: #f4f4f4;
+    border-radius: 10px;
+    width: 100%;
+
+    svg {
+      cursor: pointer;
+      color: var(--blue_01);
+      opacity: 0.6;
+      padding: 20px 27px;
+      margin: -14px;
+    }
+
+    fieldset {
+      border: none;
+    }
+  }
+
+  hr {
+    color: var(--black);
+    opacity: 0.2;
+  }
+}

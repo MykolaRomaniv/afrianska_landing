@@ -1,0 +1,55 @@
+.contactForm {
+  width: 50%;
+  margin-top: 55px;
+
+  form {
+    margin: 55px;
+
+    .title {
+      margin-bottom: 50px;
+      font-family: Gilroy;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.04em;
+      color: var(--blue_01);
+    }
+
+    .inputBox {
+      margin: 16px 0;
+      .inputLabel {
+        margin: 8px 0;
+        font-family: Gilroy;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.04em;
+        color: var(--blue_01);
+        opacity: 0.8;
+      }
+
+      .inputElement {
+        width: 100%;
+      }
+    }
+
+    .button {
+      margin-top: 70px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .contactForm {
+    width: 90%;
+  }
+}
+
+@media (max-width: 550px) {
+  .contactForm {
+    form {
+      button {
+        width: 100%;
+      }
+    }
+  }
+}

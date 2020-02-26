@@ -1,0 +1,19 @@
+.primaryBtn {
+  border: none;
+  font-family: Gilroy;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  width: 220px;
+  height: 55px;
+  background: var(--blue_04);
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background: #356ead;
+  }
+}

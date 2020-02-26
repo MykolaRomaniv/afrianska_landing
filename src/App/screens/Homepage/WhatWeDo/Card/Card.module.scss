@@ -1,0 +1,75 @@
+.shadow1 {
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+}
+
+.card {
+  width: 380px;
+  @extend .shadow1;
+  text-align: left;
+  color: var(--blue_01);
+  border-radius: 10px;
+  margin: 50px;
+
+  & > div {
+    margin-left: 48px;
+    width: 300px;
+  }
+
+  h3 {
+    font-family: Gilroy;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+  }
+
+  p {
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+    margin-bottom: 36px;
+  }
+
+  .learnMore {
+    font-family: Gilroy;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: var(--blue_04);
+    padding-bottom: 48px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 48px;
+
+    span {
+      color: inherit;
+      padding-right: 16px;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: unset;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 370px) {
+  .card {
+    width: unset;
+    padding: 0 5%;
+
+    & > div {
+      margin-left: 0;
+      width: unset;
+    }
+  }
+}
